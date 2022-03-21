@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_281)
+[debug] Load.defaultLoad until apply took 1292.1216ms
+[debug]           Load.loadUnit: plugins took 147.2212ms
+[debug]           Load.loadUnit: defsScala took 0.6989ms
+[debug] [Loading] Scanning directory C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.3867 ms
+[debug]               Load.resolveProject(metrics-computation-build) took 75.4385ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id metrics-computation-build, base: C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation\project, plugins: List(<none>))) took 147.8349ms
+[debug] [Loading] Done in C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation\project, returning: (metrics-computation-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 180.8459ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3443ms
+[debug]         Load.loadUnit(file:/C:/Users/salim/OneDrive/Bureau/Etude/S10/Realisation/Projects/metrics-computation/project/, ...) took 338.3891ms
+[debug]       Load.apply: load took 1003.1511ms
+[debug]       Load.apply: resolveProjects took 14.662ms
+[debug]       Load.apply: finalTransforms took 129.2388ms
+[debug]       Load.apply: config.delegates took 15.5037ms
+[debug]       Load.apply: Def.make(settings)... took 744.3365ms
+[debug]       Load.apply: structureIndex took 188.5531ms
+[debug]       Load.apply: mkStreams took 3.0723ms
+[info] loading project definition from C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3532.314ms
+[debug]     Load.loadUnit: defsScala took 0.0052ms
+[debug] [Loading] Scanning directory C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation
+[debug]       Load.loadUnit: mkEval took 11.7659ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.2006 ms
+[info] loading settings for project metrics-computation from build.sbt ...
+[debug]         Load.resolveProject(metrics-computation) took 9.078ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id metrics-computation, base: C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation, plugins: List(<none>))) took 14.3066ms
+[debug] [Loading] Done in C:\Users\salim\OneDrive\Bureau\Etude\S10\Realisation\Projects\metrics-computation, returning: (metrics-computation)
+[debug]     Load.loadUnit: loadedProjectsRaw took 344.8566ms
+[debug]     Load.loadUnit: cleanEvalClasses took 32.0175ms
+[debug]   Load.loadUnit(file:/C:/Users/salim/OneDrive/Bureau/Etude/S10/Realisation/Projects/metrics-computation/, ...) took 3911.3588ms
+[debug] Load.apply: load took 3937.9962ms
+[debug] Load.apply: resolveProjects took 0.2608ms
+[debug] Load.apply: finalTransforms took 42.2176ms
+[debug] Load.apply: config.delegates took 0.5646ms
+[debug] Load.apply: Def.make(settings)... took 254.7937ms
+[debug] Load.apply: structureIndex took 52.5497ms
+[debug] Load.apply: mkStreams took 0.0044ms
+[info] set current project to metrics-computation (in build file:/C:/Users/salim/OneDrive/Bureau/Etude/S10/Realisation/Projects/metrics-computation/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-eac1c9e4109b5de101cd
+[debug] Writing bsp connection file
+[info] started sbt server
